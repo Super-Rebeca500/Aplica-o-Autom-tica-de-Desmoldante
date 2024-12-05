@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem de Serviço</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/inicial.css">
+    <link rel="stylesheet" href="./css/estoque.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/meta.css">
+    <link rel="stylesheet" href="./css/os.css">
+    
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/telareca.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Ordem de Serviço</h1>
+    </header>
+
+    <div class="container-central-meta">
+      
+      <div class="os-table">
+        <div class="AAA">
+          
+        </div>
+        <div class="container-os-table">
+
+<!-- /*============================================================================================================*/ -->
+<!-- /*///////////////////////////////////////////////// Container Top ////////////////////////////////////////////*/ -->
+<!-- /*============================================================================================================*/ -->
+
+          <div class="os-top">
+            <div class="os-top-left">
+              <h2>Central de Assistência</h2>
+            </div>
+            <div class="os-top-center"></div>
+            <div class="os-top-right">
+              
+            </div>
+          </div>
+
+<!-- /*============================================================================================================*/ -->
+<!-- /*//////////////////////////////////////////////// Container Center //////////////////////////////////////////*/ -->
+<!-- /*============================================================================================================*/ -->
+          <div class="os-center">
+            <div class="os-center-top">
+
+              <div class="os-center-top-left">
+                
+                  <div class="col-md-6">
+                    <label for="inputEmail4"  class="form-label-um">Data e Hora do pedido</label>
+                    <input type="email" class="form-control-hora" id="inputEmail4">
+                  </div>
+                  <!-- <div class="col-md-6">
+                    <label for="inputEmail4"  class="form-label-hora">Previsão de atendimento</label>
+                    <input type="email" class="form-control-hora" id="inputEmail4">
+                  </div> -->
+
+              </div>
+
+              <div class="os-center-top-right">
+
+                <label for="inputEmail4"  class="form-label-um">Horário de Funcionamento</label>
+                <label for="inputEmail4"  class="form-label-um">Segunda a sexta das 8:30 às 12:00 - 13:00 às 18:00 e sábado: 8:00 às 12:00</label>
+                    
+
+            </div>
+
+          </div>
+          
+<!-- /*============================================================================================================*/ -->
+
+          <div class="os-center-cliente">
+
+            <div class="titulo-tabela-os">
+              <p>Dados do Cliente</p>
+
+            </div>
+
+            <div class="informacoes-funcionario">
+
+              <form class="row g-3">
+                <div class="col-md-5">
+                  <label for="inputEmail4"  class="form-label-um">Nome</label>
+                  <input type="email" class="form-control-um" id="inputEmail4">
+                </div>
+
+                <div class="col-md-2">
+                  <label for="inputEmail4" class="form-label-id">Identificação</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+
+                <div class="col-md-2">
+                  <label for="inputEmail4" class="form-label-id">CPF</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+
+                <div class="col-md-2">
+                  <label for="inputEmail4" class="form-label">Turno</label>
+                  <input type="email" class="form-control-rg" id="inputEmail4">
+                </div>
+              </div>
+            </form>   
+
+                <!-- =================================================================== -->
+
+
+                  <div class="titulo-tabela-os2">
+                    <p>Imformações do Pedido</p>
+      
+                  </div>
+                  <div class="informacoes-equipamento">
+                    <form class="row g-3">
+
+                <div class="col-md-3">
+                  <label for="inputEmail4" class="form-label">Setor</label>
+                  <input type="email" class="form-control-setor" id="inputEmail4">
+                </div>
+
+                <div class="col-md-3">
+                  <label for="inputEmail4" class="form-label">ID Equipamento</label>
+                  <input type="email" class="form-control-equipamento" id="inputEmail4">
+                </div>
+
+                <div class="col-md-3">
+                  <label for="inputEmail4" class="form-label">Modelo</label>
+                  <input type="email" class="form-control-modelo" id="inputEmail4">
+                </div>
+
+                <div class="col-md-3">
+                  <label for="inputEmail4" class="form-label-nserie">N° de Série</label>
+                  <input type="email" class="form-control-setor" id="inputEmail4">
+                </div>
+
+                <div class="col-md-3">
+                  <label for="inputEmail4"  class="form-label-nserie">Descrição do Problema</label>
+                  <input type="email" class="form-control-problema" id="inputEmail4">
+                </div>
+
+                
+
+              </form>        
+            </div>  
+
+            <div class="titulo-tabela-os3">
+              <p>Painel de Controle das Ordens de Serviço</p>
+
+            </div>
+            <div class="alteracao2">
+
+              <div class="container-btn">
+  
+                <form action="" class="aaah" name="f2">
+  
+                <button class="btn-alterar" id="btnEnviar" onclick="btnEnviarOs()" name="btnEnviar"
+                >Encaminhar OS</button>
+  
+                <button disabled class="btn-alterar" id="btnSalvaOs" onclick="salvarOs()">Enviar nova os</button>
+              </form>
+  
+              </div>
+              
+  
+                      <script type="text/javascript">
+                        window.onload = function btnEnviar() {
+                          
+  
+                        var button1 = document.getElementById("btnEnviar");
+                        button1.removeAttribute("disabled");
+  
+                        var button2 = document.getElementById("btnSalvaOs");
+                          button2.removeAttribute("disabled");
+  
+                          button1.onclick = function btnEnviarOs() {
+                            alert("Ordem de Serviço Enviada com Sucesso!");
+                            button1.setAttribute("disabled", "disabled");
+                        }
+                            
+                            // if (!button2.getAttribute("disabled") != "disabled") {
+                            //   button1.setAttribute("disabled", "disabled");
+                            //   // button.setAttribute("disabled", "disabled");
+                            // }
+                          }
+                        
+                  </script>
+  
+            </div>    
+
+              
+            
+
+          </div>
+          
+<!-- /*============================================================================================================*/ -->
+
+
+
+<!-- /*============================================================================================================*/ -->          
+         
+
+          
+        
+        
+
+      </div>
+    </div>
+
+    <div class="btn-voltar">
+
+        <div class="container-voltar">
+          <div class="center">
+
+            <button class="btn" class="botton-inseredados" type="button" value="Validar" onClick="voltar()">
+              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+              </svg>
+              <span>Voltar</span>
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+
+      <script> 
+
+      function voltar(){
+        location.href = "tela-inicial.html"
+
+      }
+
+    </script>
+    </body>
+</html>
